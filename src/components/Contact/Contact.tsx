@@ -8,7 +8,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    subject: '', // Added subject field
+    subject: '',
     message: ''
   });
 
@@ -74,24 +74,17 @@ const Contact = () => {
           </div>
           <div className="contact-grid">
             <div className="contact-info">
-              <div className="contact-item">
-                <FaEnvelope />
-                <div>
-                  <h3>Email</h3>
+              <div className="contact-items-container">
+                <div className="contact-item">
+                  <FaEnvelope />
                   <p>vanipriya19.23@gmail.com</p>
                 </div>
-              </div>
-              <div className="contact-item">
-                <FaPhone />
-                <div>
-                  <h3>Phone</h3>
+                <div className="contact-item">
+                  <FaPhone />
                   <p>+91 XXXXXXXXXX</p>
                 </div>
-              </div>
-              <div className="contact-item">
-                <FaMapMarkerAlt />
-                <div>
-                  <h3>Location</h3>
+                <div className="contact-item">
+                  <FaMapMarkerAlt />
                   <p>Kolkata, West Bengal</p>
                 </div>
               </div>

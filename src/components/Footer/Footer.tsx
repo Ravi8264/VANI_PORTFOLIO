@@ -22,19 +22,13 @@ const Footer = () => {
           </div>
           
           <div className="footer-social">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/vanirv" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <FaLinkedin />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <FaTwitter />
-            </a>
-            <a href="https://geeksforgeeks.org" target="_blank" rel="noopener noreferrer" aria-label="GeeksforGeeks">
+            <a href="https://www.geeksforgeeks.org/user/vanipriyahit/" target="_blank" rel="noopener noreferrer" aria-label="GeeksforGeeks">
               <SiGeeksforgeeks />
             </a>
-            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+            <a href="https://leetcode.com/u/user5830RD/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
               <SiLeetcode />
             </a>
             <a href="mailto:vanipriya19.23@gmail.com" aria-label="Email">
