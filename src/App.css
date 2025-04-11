@@ -1,0 +1,111 @@
+/* Global Styles */
+:root {
+  --primary-color: #8a2be2;
+  --primary-dark: #6a1cb2;
+  --secondary-color: #00c6ff;
+  --dark-color: #121212;
+  --light-color: #1a1a1a;
+  --text-color: #ffffff;
+  --text-secondary: #a0a0a0;
+  --bg-color: #121212;
+  --accent-purple: #b624ff;
+  --accent-blue: #00c6ff;
+  --gradient-bg: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  --transition: all 0.3s ease;
+  --box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding: 6rem 2rem;
+  background-color: var(--dark-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+}
+
+.primary-btn {
+  background: var(--gradient-bg);
+  color: white;
+  box-shadow: 0 4px 15px rgba(182, 36, 255, 0.3);
+}
+
+.primary-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(182, 36, 255, 0.4);
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid var(--accent-purple);
+  color: var(--accent-purple);
+}
+
+.secondary-btn:hover {
+  background: var(--accent-purple);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.highlight {
+  background: var(--gradient-bg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  section {
+    padding: 4rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+    padding: 2rem 1rem;
+  }
+}
