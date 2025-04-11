@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/VANI_PORTFOLIO/static/css/main.71f624e6.css",
+    "main.css": "/VANI_PORTFOLIO/static/css/main.943ff71d.css",
     "main.js": "/VANI_PORTFOLIO/static/js/main.65497ebb.js",
     "static/media/a.jpg.jpeg": "/VANI_PORTFOLIO/static/media/a.jpg.5a4c85aeb0addc97d447.jpeg",
     "index.html": "/VANI_PORTFOLIO/index.html",
-    "main.71f624e6.css.map": "/VANI_PORTFOLIO/static/css/main.71f624e6.css.map",
+    "main.943ff71d.css.map": "/VANI_PORTFOLIO/static/css/main.943ff71d.css.map",
     "main.65497ebb.js.map": "/VANI_PORTFOLIO/static/js/main.65497ebb.js.map"
   },
   "entrypoints": [
-    "static/css/main.71f624e6.css",
+    "static/css/main.943ff71d.css",
     "static/js/main.65497ebb.js"
   ]
 }
